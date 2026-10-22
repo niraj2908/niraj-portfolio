@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nirajsingh.dev"),
+  metadataBase: new URL("https://niraj-portfolio-seven.vercel.app"),
   title: "Niraj Kumar Singh — Developer Portfolio",
   description:
     "Portfolio of Niraj Kumar Singh, B.Tech CSE student (Class of 2027) at SRM IST Delhi-NCR. Building full-stack web applications and practical AI systems.",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nirajsingh.dev",
+    url: "https://niraj-portfolio-seven.vercel.app",
     title: "Niraj Kumar Singh — Developer Portfolio",
     description:
       "B.Tech CSE student at SRM IST Delhi-NCR. Building full-stack web applications and practical AI systems.",

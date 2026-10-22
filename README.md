@@ -4,10 +4,10 @@ A fast, responsive, and editorial developer portfolio built with **Next.js 16 (A
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Deployment
 
-- **Portfolio**: [https://niraj-portfolio.vercel.app](https://niraj-portfolio.vercel.app) *(or your deployed Vercel URL)*
-- **GitHub**: [https://github.com/niraj2908](https://github.com/niraj2908)
+- **Live Website**: [https://niraj-portfolio-seven.vercel.app/](https://niraj-portfolio-seven.vercel.app/)
+- **GitHub Repository**: [https://github.com/niraj2908/niraj-portfolio](https://github.com/niraj2908/niraj-portfolio)
 - **LinkedIn**: [https://www.linkedin.com/in/niraj-kumar-singh-44b294375/](https://www.linkedin.com/in/niraj-kumar-singh-44b294375/)
 
 ---
