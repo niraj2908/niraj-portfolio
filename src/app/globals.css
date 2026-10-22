@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #090909;
+  --color-dark-surface: #121212;
+  --color-dark-card: #181818;
+  --color-dark-card-hover: #202020;
+  --color-offwhite: #F3EFE6;
+  --color-offwhite-dim: #D5D1C8;
+  --color-offwhite-muted: #9E9A91;
+  --color-offwhite-dark: #625F59;
+  --color-crimson: #D7192D;
+  --color-crimson-hover: #B71224;
+  --color-crimson-muted: #5C131B;
+  --color-border-subtle: rgba(243, 239, 230, 0.08);
+  --color-border-strong: rgba(243, 239, 230, 0.18);
+  --color-crimson-glow: rgba(215, 25, 45, 0.2);
+
+  --font-display: var(--font-space-grotesk), sans-serif;
+  --font-sans: var(--font-jakarta), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+:root {
+  --background: #090909;
+  --foreground: #F3EFE6;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #090909;
+  color: #F3EFE6;
+}
+
+body {
+  background-color: #090909;
+  color: #F3EFE6;
+  font-family: var(--font-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle editorial grain background */
+.editorial-grid {
+  background-size: 60px 60px;
+  background-image: 
+    linear-gradient(to right, rgba(243, 239, 230, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(243, 239, 230, 0.03) 1px, transparent 1px);
+}
+
+.crimson-radial {
+  background: radial-gradient(circle at 50% 20%, rgba(215, 25, 45, 0.12) 0%, transparent 65%);
+}
+
+/* Custom understated scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+/* Hide Next.js dev portal badge */
+nextjs-portal {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
